@@ -132,7 +132,7 @@ async def send_message_every_minute() -> None:
             message_id = user['message_id']
             current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             message_text_with_time = f"{message_text}\nВремя: {current_time}\n\nBOT CREATED BY MIPOHBOPOHIH"
-            await bot.edit_message_text(chat_id=chat_id, message_id=message_id, text=message_text_with_time,
+            await bot.send_message(chat_id=chat_id, text=message_text_with_time,
                                         reply_markup=inline_keyboard)
         await sleep(10)
 
