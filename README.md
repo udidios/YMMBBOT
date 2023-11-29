@@ -14,7 +14,7 @@
 ```shell
 git clone https://github.com/udidios/YMMBBOT
 # Вам надо быть в `ymmbbot` для дальнейшей работы
-cd YMMBBOT
+cd ymmbbot
 ```
 
 ## Устанавливаем зависимости
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 ## Запускаем
 ```shell
-python bot.py
+python ymmbbot.py
 ```
 # Картинки-примеры
 <table>
