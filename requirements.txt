@@ -1,0 +1,4 @@
+aiogram
+yandex-music
+asyncio
+pylast
