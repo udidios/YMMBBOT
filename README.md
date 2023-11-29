@@ -12,9 +12,9 @@
 
 ## Скачиваем ymmbbot
 ```shell
-git clone https://github.com/MIPOHBOPOHIH/ymmbbot
+git clone https://github.com/udidios/YMMBBOT
 # Вам надо быть в `ymmbbot` для дальнейшей работы
-cd ymmbbot
+cd YMMBBOT
 ```
 
 ## Устанавливаем зависимости
